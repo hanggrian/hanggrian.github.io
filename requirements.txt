@@ -1,3 +1,4 @@
-pygithub==2.3.0
-pystache==0.5.4
-requests==2.20.0
+pygithub==2.5.0
+pystache==0.6.7
+requests==2.32.3
+urllib3>=2.3.0
