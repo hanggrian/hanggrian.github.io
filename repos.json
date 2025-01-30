@@ -3,6 +3,7 @@
     "java-starters": ["Java"],
     "groovy-starters": ["Groovy"],
     "kotlin-starters": ["Kotlin"],
+    "python-starters": ["Python"],
     "rulebook": ["Android", "Groovy", "Java", "Kotlin", "Python"],
 
     "javapoet-dsl": ["Kotlin"],

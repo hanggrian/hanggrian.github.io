@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 
-from collections import defaultdict
 import codecs
 import json
-import os
-import pystache
-import requests
-import time
 import netrc
+import os
+from collections import defaultdict
+
+import pystache
 from github import Github
 
 repos_in = 'repos.json'
@@ -18,6 +17,7 @@ auth = netrc.netrc()
 (login, _, password) = auth.authenticators('api.github.com')
 
 gh = Github(password)
+
 
 def gh_repo(name):
   print('Fetching "%s" repo information...' % name)
@@ -31,6 +31,7 @@ def gh_repo(name):
     html_url=repo.html_url,
     description=repo.description
   )
+
 
 with codecs.open(index_in, 'r', 'utf-8') as f:
   template = pystache.parse(f.read())
@@ -60,14 +61,13 @@ for repo_data in custom:
   for repo_cat in repo_cats:
     categories[repo_cat].append(repo_data)
 
-
 # Template context that will be used for rendering.
 context = {
-  'categories': []
+  'categories': [],
 }
 
 # Loop over the category names sorted alphabetically (case-insensitive) with 'Other' last.
-for category_name in sorted(categories.keys(), key=lambda s: s.lower() if s != 'Other' else 'z'*10):
+for category_name in sorted(categories.keys(), key=lambda s: s.lower() if s != 'Other' else 'z' * 10):
   data = {
     'name': category_name,
     'index': category_name.lower(),
@@ -84,7 +84,7 @@ for category_name in sorted(categories.keys(), key=lambda s: s.lower() if s != '
       'name': name,
       'href': repo_data['html_url'],
       'website': repo_data.get('homepage', None),
-      'description': repo_data.get('description', None)
+      'description': repo_data.get('description', None),
     }
     if os.path.exists(os.path.join('images/repos', '%s.png' % name)):
       data['repos_with_images'].append(repo)
