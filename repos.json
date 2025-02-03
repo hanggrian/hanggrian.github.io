@@ -20,10 +20,10 @@
     "packaging-gradle-plugin": ["Gradle"],
     "pages-gradle-plugin": ["Gradle"],
 
-    "minimal-dark-theme": ["CSS"],
-    "cayman-dark-theme": ["CSS"],
-    "materialist-theme": ["CSS"],
-    "markdown-pdf-styles": ["CSS"],
+    "minimal-dark-theme": ["HTML/CSS"],
+    "cayman-dark-theme": ["HTML/CSS"],
+    "materialist-theme": ["HTML/CSS"],
+    "markdown-pdf-styles": ["HTML/CSS"],
 
     "prepress-adobe-scripts": ["ExtendScript"]
   },
