@@ -1,31 +1,29 @@
 {
   "repos": {
-    "java-starters": ["Java"],
-    "groovy-starters": ["Groovy"],
-    "kotlin-starters": ["Kotlin"],
-    "python-starters": ["Python"],
-    "rulebook": ["Android", "Groovy", "Java", "Kotlin", "Python"],
-
-    "javapoet-dsl": ["Kotlin"],
-    "kotlinpoet-dsl": ["Kotlin"],
-    "ktfx": ["Kotlin"],
-
-    "collapsingtoolbarlayout-subtitle": ["Android"],
-    "countrypicker": ["Android"],
-    "socialview": ["Android"],
-    "pinview": ["Android"],
-
-    "generating-gradle-plugin": ["Gradle"],
-    "localization-gradle-plugin": ["Gradle"],
-    "packaging-gradle-plugin": ["Gradle"],
-    "pages-gradle-plugin": ["Gradle"],
+    "plano": ["Apps"],
+    "openpss": ["Apps"],
+    "prepress-adobe-scripts": ["Apps"],
 
     "minimal-dark-theme": ["HTML/CSS"],
     "cayman-dark-theme": ["HTML/CSS"],
     "materialist-theme": ["HTML/CSS"],
     "markdown-pdf-styles": ["HTML/CSS"],
 
-    "prepress-adobe-scripts": ["ExtendScript"]
+    "collapsingtoolbarlayout-subtitle": ["Android"],
+    "countrypicker": ["Android"],
+    "socialview": ["Android"],
+    "pinview": ["Android"],
+
+    "javapoet-dsl": ["Kotlin"],
+    "kotlinpoet-dsl": ["Kotlin"],
+    "ktfx": ["Kotlin"],
+
+    "rulebook": ["Android", "Groovy", "Java", "Kotlin", "Python"],
+
+    "generating-gradle-plugin": ["Gradle Plugin"],
+    "localization-gradle-plugin": ["Gradle Plugin"],
+    "packaging-gradle-plugin": ["Gradle Plugin"],
+    "pages-gradle-plugin": ["Gradle Plugin"]
   },
   "custom": []
 }
