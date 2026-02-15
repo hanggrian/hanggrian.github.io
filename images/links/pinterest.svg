@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="666.66669"
+   height="666.82666"
+   viewBox="0 0 666.66669 666.82666"
+   sodipodi:docname="P-Badge-Red-RGB.eps"
+   inkscape:export-filename="P-Badge-Red-RGB.eps.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       inkscape:label="1"
+       id="page1"
+       width="666.66669"
+       height="666.82666"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="g1"
+     inkscape:groupmode="layer"
+     inkscape:label="1">
+    <g
+       id="group-R5">
+      <path
+         id="path2"
+         d="M 5000,2500 C 5000,1119.29 3880.71,0 2500,0 1119.29,0 0,1119.29 0,2500 0,3880.71 1119.29,5000 2500,5000 3880.71,5000 5000,3880.71 5000,2500"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,666.82667)" />
+      <path
+         id="path3"
+         d="m 1571.88,179.301 c -31.25,284.371 -9.38,556.25 53.12,818.75 l 250,1078.119 c -40.62,131.25 -71.87,281.25 -71.87,431.25 0,350 168.75,600 434.37,600 184.37,0 318.76,-128.13 318.76,-375 0,-78.13 -15.64,-165.62 -46.88,-265.62 L 2400,2107.42 c -21.87,-68.75 -31.25,-134.37 -31.25,-190.63 0,-250 190.63,-390.62 434.37,-390.62 434.38,0 743.76,450 743.76,1034.38 0,649.99 -425,1065.63 -1053.13,1065.63 -700,0 -1143.75,-456.26 -1143.75,-1090.64 0,-256.25 78.13,-493.74 231.25,-656.25 -50,-84.37 -103.12,-99.99 -184.37,-99.99 -250,0 -487.505,353.13 -487.505,834.37 0,831.25 665.625,1493.74 1600.005,1493.74 981.24,0 1596.87,-684.37 1596.87,-1528.11 0,-850 -600,-1487.51 -1246.87,-1487.51 -256.26,0 -481.25,109.38 -637.51,306.26 L 2093.75,879.289 C 2025,610.551 1921.88,357.43 1756.25,113.68 1990.63,41.7891 2221.87,1.17188 2500,1.17188 c 1381.25,0 2500,1118.74812 2500,2499.99812 0,1381.25 -1118.75,2500 -2500,2500 C 1118.75,5001.17 0,3882.42 0,2501.17 0,1454.29 643.754,551.18 1571.88,179.301"
+         style="fill:#e71c26;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,666.82667)" />
+    </g>
+  </g>
+</svg>

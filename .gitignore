@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+._*
+
+# WebStorm
+*.iml
+.idea/
+node_modules/
+docs/
+coverage/
+dist/
+test-report.junit.xml
+
+# Ruby
+.bundle/
+vendor/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

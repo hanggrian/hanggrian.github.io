@@ -1,0 +1,121 @@
+.on-desktop {
+  display: flex;
+}
+
+.on-tablet {
+  display: flex;
+}
+
+#aboutWindow {
+  width: 650px;
+  height: 550px;
+  top: 80px;
+  left: 200px;
+}
+
+#emailWindow {
+  width: 700px;
+  height: 600px;
+  top: 100px;
+  left: 300px;
+}
+
+#linksWindow {
+  width: 700px;
+  height: 600px;
+  top: 70px;
+  left: 300px;
+}
+
+#musicWindow {
+  width: 500px;
+  height: 600px;
+  top: 100px;
+  left: 350px;
+}
+
+#photosWindow {
+  width: 800px;
+  height: 600px;
+  top: 80px;
+  left: 150px;
+}
+
+#practiceWindow {
+  width: 900px;
+  height: 600px;
+  top: 100px;
+  left: 250px;
+}
+
+#projectsWindow {
+  width: 700px;
+  height: 650px;
+  top: 50px;
+  left: 350px;
+}
+
+#softwareWindow {
+  width: 650px;
+  height: 500px;
+  top: 100px;
+  left: 250px;
+}
+
+#statsWindow {
+  width: 700px;
+  height: 650px;
+  top: 80px;
+  left: 300px;
+}
+
+#terminalWindow {
+  width: 700px;
+  height: 500px;
+  top: 120px;
+  left: 400px;
+}
+
+@media (max-width: 480px) {
+  .on-desktop {
+    display: none;
+  }
+
+  .on-tablet {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .on-desktop {
+    display: none;
+  }
+
+  .on-tablet {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-sidebar {
+    width: 150px;
+  }
+
+  #aboutWindow,
+  #emailWindow,
+  #linksWindow,
+  #musicWindow,
+  #photosWindow,
+  #practiceWindow,
+  #projectsWindow,
+  #softwareWindow,
+  #statsWindow,
+  #terminalWindow {
+    width: 90vw;
+    height: 75vh;
+    top: 10vh;
+    bottom: 15vh;
+    left: 5vw;
+    right: 5vw;
+  }
+}

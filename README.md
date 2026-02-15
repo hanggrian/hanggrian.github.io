@@ -1,2 +1,3 @@
-# hanggrian.github.io
-Portfolio with GNOME desktop look
+# GNOME Desktop Portfolio
+
+Work in progress.
